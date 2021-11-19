@@ -1,0 +1,443 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.wrapper {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+/* Hero and Navigation Area */
+.top-section {
+    height: 75vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    border: solid 1px rgb(241, 245, 245);
+    position: fixed;
+    width: 100%;
+    background-color: #F4F6F8;
+    z-index: 1000;
+}
+
+.nav-left {
+    padding-left: 90px;
+}
+.super-folio {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+.nav-right {
+    padding-right: 90px;
+    
+}
+.nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+    padding-right: 9px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.hero-section {
+    background-color: #F4F6F8;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    background-color: #F4F6F8;
+}
+
+.hero > * {
+    flex: 1;
+}
+
+img.hero-img {
+    width: 60%;
+}
+
+.hero-left {
+    text-align: center;
+}
+
+p.hello {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 2.25em;
+    color: #222529;
+    margin-bottom: 25px;
+    position: relative;
+}
+.hero-title::after {
+    height: 20px;
+    width: 150px;
+    background-image: url(./image/mark.JPG);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+.hero-para {
+    font-weight: 400;
+    font-size: 15px;
+    color: #4C5053;
+}
+
+i {
+    color: rgba(0, 0, 0, .8);
+}
+
+button.get-in-touch {
+    background-color: #F6E05E;
+    padding: 12px 32px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.3); 
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    transition: all .4s;
+}
+button:hover {
+    transform: scale(1.03);
+}
+button > i {
+    padding-left: 3px;
+}
+.social {
+    margin: 20px 0;
+}
+.social a i {
+    padding-right: 15px;
+    transition: all .1s;
+    color: rgba(0, 0, 0, 0.8);
+}
+.social a i:hover {
+    transform: scale(1.4);
+    color: rgb(12, 86, 170);
+}
+.wave-img {
+    display: block;
+    width: 100%;
+    min-width: 1270px;
+    transform-origin: top;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding-top: 260px;
+}
+.about > * {
+    flex: 1;
+}
+.about-left {
+    text-align: justify;
+    padding-left: 120px;
+}
+#about-title {
+    text-align: justify;
+    padding-left: 120px;
+}
+#about-para {
+    text-align: justify;
+    padding-left: 120px;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+}
+#about-ul {
+    text-align: justify;
+    padding-left: 120px;
+    padding-top: 30px;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+.about-right {
+    text-align: justify;
+    padding-left: 120px;
+}
+img.about-img {
+    width: 50%;
+    border-radius: 15px 50px;
+}
+
+/* Service Section */
+.service-section {
+    padding-top: 80px;
+}
+.service-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 27px;
+    color: #222529;
+    position: relative;
+}
+.service-title::after {
+    height: 25px;
+    width: 160px;
+    background-image: url(./image/mark-service.png);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 545px;
+    top: 30px;
+}
+.service-para {
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 50px;
+    width: 38%;
+    margin-left: 395px;
+}
+.service {
+    display: flex;
+    padding-top: 50px;
+    width: 800px;
+    margin-left: 230px;
+}
+.service > * {
+    flex: 1;
+}
+.service-item {
+    font-size: 60px;
+    padding: 5px;
+    color: #33363A;
+}
+.service-item-para {
+    font-weight: 800;
+    color: #33363A;
+}
+.service-left1 {
+    display: block;
+    text-align: center;
+}
+.service-left2 {
+    display: block;
+    text-align: center;
+}
+.service-right1 {
+    display: block;
+    text-align: center;
+}
+.service-right2 {
+    display: block;
+    text-align: center;
+}
+
+/* My Skills Section */
+.skill-section {
+    padding-top: 80px;
+}
+.skill-title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 800;
+    color: #222529;
+    position: relative;
+}
+.skill-title::after {
+    height: 25px;
+    width: 160px;
+    background-image: url(./image/mark-skill.png);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 575px;
+    top: 33px;
+}
+.skill-para {
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 50px;
+    width: 38%;
+    margin-left: 395px;
+}
+.skill-ratio {
+    display: flex;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 35px;
+    background-color: #F4F6F8;
+}
+.skill-ratio > * {
+    flex: 1;
+}
+
+/* Portfolio Start */
+.portfolio-section {
+    padding-top: 60px;
+}
+.portfolio-title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 800;
+    color: #222529;
+    position: relative;
+}
+.portfolio-title::after {
+    height: 25px;
+    width: 160px;
+    background-image: url(./image/mark-portfolio.png);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+.portfolio-container {
+    column-count: 4;
+    column-gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 1060px;
+}
+img.portfolio-img {
+    max-width: 100%;
+    display: block;
+}
+figure {
+margin: 0;
+display: grid;
+grid-template-rows: 1fr auto;
+margin-bottom: 10px;
+break-inside: avoid;
+}
+figure > .portfolio-img {
+grid-row: 1 / -1;
+grid-column: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .service-title::after, .skill-title::after, .portfolio-title::after {
+        left: 60px;
+    }
+    /* Hero and Navigation Area */
+.top-section {
+    height: 55vh;
+    width: 600px;
+}
+.navigation {
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    background-color: #F4F6F8;
+}
+img.hero-img {
+    width: 90%;
+}
+.hero-left {
+    text-align: left;
+}
+p.hello {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 15px;
+    color: #222529;
+    margin-bottom: 25px;
+    position: relative;
+}
+.hero-title::after {
+    height: 13px;
+    width: 70px;
+    left: 60px;
+    top: 30px;
+}
+.hero-para {
+    font-size: 12px;
+}
+button.get-in-touch {
+    margin-top: 15px;
+}
+.wave-img {
+    display: block;
+    width: 100%;
+    min-width: 600px;
+}
+    /* About Section */
+    .about {
+        display: table;
+        padding-top: 320px;
+    }
+    #about-title {
+        text-align: center;
+        padding-left: 45px;
+    }
+    .about-left, #about-para, #about-ul, .about-right {
+        padding-left: 2px;
+    }
+    img.about-img {
+        width: 100%;
+    }
+    /* Service Section */
+    .service-para {
+        text-align: justify;
+        width: 100%;
+        margin-left: 2px;
+    }
+    .service {
+        width: 500px;
+        margin-left: 2px;
+    }
+    .service-item {
+        font-size: 40px;
+        padding: 1px;
+    }
+    /* My Skills Section */
+    .skill-para {
+        text-align: justify;
+        font-weight: 300;
+        font-size: 15px;
+        padding-top: 30px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .skill-ratio {
+        display: flex;
+        width: 500px;
+        margin-left: 1px;
+        margin-top: 30px;
+        padding: 35px;
+        background-color: #F4F6F8;
+    }
+}

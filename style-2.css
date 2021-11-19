@@ -1,0 +1,324 @@
+.experience-title, .client-title, .contact-title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 800;
+    color: #222529;
+    position: relative;
+}
+.experience-title::after, .client-title::after, .contact-title::after {
+    height: 25px;
+    width: 160px;
+    background-image: url(./image/mark-portfolio.png);
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+/* Experience Section */
+.experience-section {
+    padding-top: 70px;
+}
+
+.experience-top {
+    display: flex;
+    margin-top: 40px;
+    width: 900px;
+}
+.experience-bottom {
+    display: flex;
+    margin-top: 10px;
+    width: 900px;
+}
+.experience-top-left, .experience-top-right, .experience-bottom-left, .experience-bottom-right {
+    height: 280px;
+    width: 450px;
+    border: solid 2px #F4F6F8;
+    border-radius: 6px;
+    margin: 10px;
+}
+.experience-header {
+    border-radius: 5px;
+    background-color: #F4F6F8;
+    display: flex;
+}
+.experience-header-title {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.experience-header-para {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: #707275;
+}
+.experience-para {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #707275;
+}
+#experience-para {
+    padding-bottom: 5px;
+}
+
+.experience-top-left-header-icon {
+    padding-left: 190px;
+    padding-top: 5px;
+    font-size: 55px;
+    color: #33363A;
+}
+.experience-top-right-header-icon {
+    padding-left: 175px;
+    padding-top: 5px;
+    font-size: 55px;
+    color: #33363A;
+}
+.experience-bottom-left-header-icon {
+    padding-left: 180px;
+    padding-top: 5px;
+    font-size: 55px;
+    color: #33363A;
+}
+.experience-bottom-right-header-icon {
+    padding-left: 170px;
+    padding-top: 5px;
+    font-size: 55px;
+    color: #33363A;
+}
+
+/* Client Section */
+.client-section {
+    padding-top: 70px;
+}
+.client-top {
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+}
+.client-bottom {
+    display: flex;
+    margin-top: 40px;
+    width: 800px;
+}
+.client-para {
+    padding: 15px 0 0 12px;
+    font-size: 13px;
+    color: #606163;
+}
+.client-top-right, .client-bottom-right {
+    padding-left: 65px;
+}
+.client-icon {
+    font-size: 30px;
+    font-weight: 800;
+}
+.client-comment {
+    display: flex;
+}
+.client-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+.client-text {
+    text-align: right;
+    margin-right: 1rem;
+}
+.client-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding-top: 105px;
+}
+.contact-elements {
+    margin-top: 60px;
+    display: flex;
+}
+.contact-left {
+    height: 450px;
+    width: 475px;
+    margin-left: 150px;
+    background-color: #F4F6F8;
+}
+.form-group-name {
+    margin-top: 1.5rem;
+    margin-bottom: 10px;
+}
+.form-group-email {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form-group-message {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.form-label {
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+.form-input, .form-input-message {
+    display: block;
+    width: 400px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+}
+.form-input-message {
+    height: 110px;
+}
+button.send {
+    background-color: #F6E05E;
+    padding: 13px 35px;
+    margin-left: 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.3); 
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    transition: all .4s;
+}
+button.send:hover {
+    transform: scale(1.03);
+}
+
+.contact-right {
+    height: 300px;
+    width: 460px;
+    margin-right: 150px;
+}
+.contact-header {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.contact-para {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.contact-ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer-section {
+    margin-top: 130px;
+    background-color: #F4F6F8;
+    height: 335px;
+    width: 100%;
+}
+.footer-name {
+    text-align: center;
+    padding-top: 80px;
+}
+.footer-designation {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-social {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+.footer-end {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .experience-title::after, .client-title::after, .contact-title::after {
+        left: 60px;
+    }
+    /* Experience-section */
+    .experience-section { 
+        padding-top: 40px;
+    }
+    .experience-top {
+        display: flex;
+        margin-top: 30px;
+        width: 600px;
+    }
+    .experience-bottom {
+        display: flex;
+        margin-top: 10px;
+        width: 600px;
+    }
+    .experience-top-left, .experience-top-right, .experience-bottom-left, .experience-bottom-right {
+        height: 330px;
+    }
+    .experience-top-left-header-icon {
+        padding-left: 190px;
+    }
+    .experience-top-right-header-icon {
+        padding-left: 155px;
+    }
+    .experience-bottom-left-header-icon, .experience-bottom-right-header-icon {
+        padding-left: 185px;
+    }
+    /* Client Section */
+    .client-section {
+        padding-top: 100px;
+        margin-left: 20px;
+    }
+    .client-top, .client-bottom {
+        display: flex;
+        margin-top: 40px;
+        width: 600px;
+    }
+    .client-icon {
+        font-size: 20px;
+    }
+    /* Contact Section */
+    .contact-section {
+        padding-top: 100px;
+        display: inline-block;
+    }
+    .contact-elements {
+        margin-top: 50px;
+        display: contents;
+    }
+    .contact-left, .contact-right {
+        width: 500px;
+        margin-left: 30px;
+    }
+    .form-input, .form-input-message {
+        width: 400px;
+    }
+    /* Footer Section */
+    .footer-section {
+        margin-top: 50px;
+        height: 300px;
+    }
+    .footer-name, .footer-designation, .footer-social {
+        padding-top: 35px;
+    }
+}

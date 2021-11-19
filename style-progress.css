@@ -1,0 +1,186 @@
+.html-progress, .css-progress, .javascript-progress, .react-progress, .php-progress, 
+.wordpress-progress, .mysql-progress, .photoshop-progress {
+    background: #E9ECEF;
+    border-radius: 50px;
+    position: relative;
+    height: 14px;
+    width: 330px;
+}
+.html-ratio, .css-ratio, .javascript-ratio, .react-ratio, .php-ratio, 
+.wordpress-ratio, .mysql-ratio, .photoshop-ratio {
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* HTML Progress */
+.html-progress-value {
+    animation: load1 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load1 {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+
+/* CSS Progress */
+.css-progress-value {
+    animation: load2 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load2 {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+
+/* JavaScript progress */
+.javascript-progress-value {
+    animation: load3 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load3 {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+
+/* React Progress */
+.react-progress-value {
+    animation: load4 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load4 {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+
+/* PHP Progress */
+.php-progress-value {
+    animation: load5 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load5 {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+/* Wordpress Progress */
+.wordpress-progress-value {
+    animation: load6 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load6 {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+/* MySQL progress */
+.mysql-progress-value {
+    animation: load7 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load7 {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+
+/* Photoshop Progress */
+.photoshop-progress-value {
+    animation: load8 1s normal forwards;
+    border-radius: 100px;
+    background: #F6E05E;
+    height: 14px;
+    width: 0;
+}
+@keyframes load8 {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+/* Show Ratio */
+.show-ratio-html {
+    padding-left: 250px;
+}
+.show-ratio-css {
+    padding-left: 262px;
+}
+.show-ratio-javascript {
+    padding-left: 238px;
+}
+.show-ratio-react {
+    padding-left: 263px;
+}
+.show-ratio-php {
+    padding-left: 266px;
+}
+.show-ratio-wordpress {
+    padding-left: 230px;
+}
+.show-ratio-mysql {
+    padding-left: 253px;
+}
+.show-ratio-photoshop {
+    padding-left: 234px;
+}
+
+/* Skill Ratio Left/Right */
+.skill-ratio-right {
+    padding-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .html-progress, .css-progress, .javascript-progress, .react-progress, .php-progress, 
+    .wordpress-progress, .mysql-progress, .photoshop-progress {
+    height: 14px;
+    width: 150px;
+    }
+    /* Show Ratio */
+    .show-ratio-html {
+        padding-left: 70px;
+    }
+    .show-ratio-css {
+        padding-left: 80px;
+    }
+    .show-ratio-javascript {
+        padding-left: 55px;
+    }
+    .show-ratio-react {
+        padding-left: 80px;
+    }
+    .show-ratio-php {
+        padding-left: 85px;
+    }
+    .show-ratio-wordpress {
+        padding-left: 50px;
+    }
+    .show-ratio-mysql {
+        padding-left: 70px;
+    }
+    .show-ratio-photoshop {
+        padding-left: 50px;
+    }
+
+    /* Skill Ratio Left/Right */
+    .skill-ratio-right {
+        padding-left: 20px;
+    }
+}
